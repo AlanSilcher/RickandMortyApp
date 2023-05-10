@@ -35,7 +35,7 @@ export default function Detail () {
 
   return (
     <div className="detail" style={cardStyle}>
-      <img src={detail.image}></img>
+      <img src={detail.image} alt="image"></img>
       <h5>{detail.name}</h5>
       <p>Id: {id}</p>
       <p>State: {detail.status}</p>
